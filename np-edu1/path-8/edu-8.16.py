@@ -26,3 +26,14 @@ class Fibs:
 
 obj = Fibs(10)
 for s in obj:
+    print(s, end=" ")
+print()
+obj.a = 3
+obj.b = 5
+obj.count = 4
+for s in obj:
+    print(s, end=" ")
+print()
+obj.n = 15
+for s in obj:
+    print(s, end=" ")
